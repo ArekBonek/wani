@@ -173,6 +173,9 @@ mkdir -p /etc/slowdns
 touch /etc/slowdns/server.pub
 touch /etc/slowdns/server.key
 mkdir -p /etc/kuhing
+mkdir -p /etc/limit/vmess
+mkdir -p /etc/limit/trojan
+mkdir -p /etc/limit/vless
 mkdir -p /etc/kuhing/theme
 mkdir -p /var/lib >/dev/null 2>&1
 echo "IP=" >> /var/lib/ipvps.conf
