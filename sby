@@ -161,6 +161,10 @@ touch /etc/shadowsocks/.shadowsocks.db
 mkdir -p /etc/xray
 mkdir -p /etc/v2ray
 mkdir -p /etc/lokasi
+mkdir -p /etc/limit
+touch /etc/limit/vmess
+touch /etc/limit/trojan
+touch /etc/limit/vless
 touch /etc/xray/domain
 touch /etc/v2ray/domain
 touch /etc/lokasi/city
